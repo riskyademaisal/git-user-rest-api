@@ -1,0 +1,33 @@
+version: '1.0'
+services:
+  spring-app:
+    image: 'docker-spring-boot-postgres:latest'
+    build:
+      context: .
+      dockerfile: spring.dockerfile
+    container_name: spring-rest-api
+    restart: always
+    ports:
+      - '8000:8000'
+    depends_on:
+      - postgres-db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres-db:5432/productdb
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=motdepasse
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=create
+
+  postgres-db:
+    image: 'postgres:15-alpine'
+    restart: always
+    container_name: postgres-db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=motdepasse
+      - POSTGRES_DB=productdb
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'db:/var/lib/postgresql/data'
+volumes:
+  db:

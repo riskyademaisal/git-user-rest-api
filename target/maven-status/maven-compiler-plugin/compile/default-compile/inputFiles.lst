@@ -1,0 +1,14 @@
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/payload/SearchModel.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/client/GitSearchUsersClient.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/entity/Search.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/payload/User.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/client/GitSearchUsersClientFallback.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/service/ApiExceptionHandler.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/controller/SearchController.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/service/SearchService.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/DemoApplication.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/entity/BaseEntity.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/dto/GitSearchUserRespDTO.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/repository/SearchRepository.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/dto/GitSearchUserDTO.java
+/Users/riskyademaisal/Documents/AppFuxion/git-user-rest-api/src/main/java/com/example/demo/service/PdfService.java
