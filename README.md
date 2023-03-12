@@ -12,9 +12,7 @@ cd git-user-rest-api
    ```
    ./mvnw clean package -DskipTests && cp target/demo-0.0.1-SNAPSHOT.jar src/main/docker && cd src/main/docker &&  docker compose build --no-cache && docker-compose down && docker rmi docker-spring-boot-postgres:latest && docker compose up -d &&  cd ../../../
    ```
-- You can test using postman collection file (import to postman): 
-[GitSearchUser.postman_collection.json][PlDb]
-[Markdown site][df1]
+- You can test using postman collection file (import to postman): GitSearchUser.postman_collection.json
    
 
 ## Technology Stack:
