@@ -5,9 +5,9 @@
 - Download/clone the project from github.
 - Make sure your docker is already run.
 - Use you CLI and go to project root directory. 
-``` 
-cd git-user-rest-api
-```
+   ``` 
+   cd git-user-rest-api
+   ```
 - Build, Create Image, and Docker Up with this command:
    ```
    ./mvnw clean package -DskipTests && cp target/demo-0.0.1-SNAPSHOT.jar src/main/docker && cd src/main/docker &&  docker compose build --no-cache && docker-compose down && docker rmi docker-spring-boot-postgres:latest && docker compose up -d &&  cd ../../../
