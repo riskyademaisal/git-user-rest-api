@@ -4,7 +4,7 @@
 ## How To Install and Test?
 - Download/clone the project from github.
 - Make sure your docker is already run.
-- Use you CLI and go to project root directory. 
+- Use your CLI and go to project root directory. 
    ``` 
    cd git-user-rest-api
    ```
